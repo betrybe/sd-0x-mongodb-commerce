@@ -104,7 +104,13 @@ Para isso, escreva no arquivo `desafio3.js` quatro queries, **nesta ordem**:
 
 ##### Desafio 4
 
-Atribua o valor `16.90` ao campo `valorUnitario` e a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`.
+Atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`.
+
+Para isso, escreva no arquivo `desafio4.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`.
+
+2. Crie uma query que retorna o `nome` de todos os documentos em que o campo `ultimaModificacao` existe.
 
 ##### Desafio 5
 

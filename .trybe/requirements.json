@@ -14,6 +14,11 @@
       "identifier": "desafio3",
       "description": "Adicione o campo `avaliacao` em todos os documentos da coleção e efetue alterações nesse campo",
       "bonus": false
+    },
+    {
+      "identifier": "desafio4",
+      "description": "Atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`",
+      "bonus": false
     }
   ]
 }
