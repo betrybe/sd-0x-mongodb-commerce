@@ -80,7 +80,13 @@ Para isso, escreva no arquivo `desafio1.js` duas queries, **nesta ordem**:
 
 ##### Desafio 2
 
-Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `0.00`, com o tipo `NumberDecimal`.
+Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor "`0.00`", com o tipo `NumberDecimal`.
+
+Para isso, escreva no arquivo `desafio2.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que adiciona o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor "`0.00`", com o tipo `NumberDecimal`.
+
+2. Crie uma query que retorna o `nome` e `valorUnitario` de todos os produtos.
 
 ##### Desafio 3
 
