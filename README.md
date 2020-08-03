@@ -102,31 +102,31 @@ Para isso, escreva no arquivo `desafio3.js` quatro queries, **nesta ordem**:
 
 4. Crie uma query que retorna o `nome` e `avaliacao` de todos os sanduíches.
 
-##### Desafio 6
+##### Desafio 4
 
 Atribua o valor `16.90` ao campo `valorUnitario` e a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`.
 
-##### Desafio 7
+##### Desafio 5
 
 Adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
 
-##### Desafio 8
+##### Desafio 6
 
 Inclua `bacon` no final da lista de `ingredientes` dos sanduíches `Big Mac` e `Quarteirão com Queijo`.
 
-##### Desafio 9
+##### Desafio 7
 
 Remova o item `cebola` de todos os sanduíches.
 
-##### Desafio 10
+##### Desafio 8
 
 Remova o primeiro `ingrediente` do sanduíche `Quarteirão com Queijo`.
 
-##### Desafio 11
+##### Desafio 9
 
 Remova o último `ingrediente` do sanduíche `Cheddar McMelt`.
 
-##### Desafio 12
+##### Desafio 10
 
 Agora, vamos simular a quantidade de vendas dos sanduíches por dia da semana.
 
@@ -138,63 +138,63 @@ Para isso, inclua um _array_ com sete posições em todos os sanduíches. Cada u
 
 O primeiro item desse _array_ representa as vendas no Domingo, enquanto o último representa as vendas no Sábado. Tenha isso claro porque vamos utilizar essa sequência mais à frente.
 
-##### Desafio 13
+##### Desafio 11
 
 Incremente as vendas de `Big Mac` às quartas-feiras em `60`.
 
-##### Desafio 14
+##### Desafio 12
 
 Incremente as vendas de todos os sanduíches de carne do tipo `bovino` e `pão` aos sábados em `120`.
 
-##### Desafio 15
+##### Desafio 13
 
 Insira os elementos `combo` e `tasty` no _array_ `tags` de todos os sanduíches e aproveite para deixar os elementos em ordem alfabética ascendente.
 
-##### Desafio 16
+##### Desafio 14
 
 Ordene os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
 
-##### Desafio 17
+##### Desafio 15
 
 Adicione o elemento `muito sódio` ao _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
 
-##### Desafio 18
+##### Desafio 16
 
 Adicione o elemento `contém sódio` ao _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`.
 
-##### Desafio 19
+##### Desafio 17
 
 Conte quantos produtos contêm `Mc` no nome, sem considerar letras maiúsculas ou minúsculas.
 
-##### Desafio 20
+##### Desafio 18
 
 Conte quantos produtos têm `4` ingredientes.
 
-##### Desafio 21
+##### Desafio 19
 
 Crie um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
 
-##### Desafio 22
+##### Desafio 20
 
 Conte quantos documentos contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
 
-##### Desafio 23
+##### Desafio 21
 
 Conte quantos documentos contêm a expressão `feito com` utilizando o operador `$text`.
 
-##### Desafio 24
+##### Desafio 22
 
 Renomeie o campo `descricao` para `descricaoSite` em todos os documentos.
 
-##### Desafio 25
+##### Desafio 23
 
 Remova o campo `valorUnitario` do item `Big Mac`.
 
-##### Desafio 26
+##### Desafio 24
 
 Retorne o nome dos sanduíches em que o número de `curtidas` é maior que o número de vendas.
 
-##### Desafio 27
+##### Desafio 25
 
 Retorne o nome e a quantidade de vendas dos sanduíches em que o número de vendas é múltiplo de `5`.
 
