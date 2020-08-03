@@ -9,6 +9,11 @@
       "identifier": "desafio2",
       "description": "Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor \"`0.00`\", com o tipo `NumberDecimal`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio3",
+      "description": "Adicione o campo `avaliacao` em todos os documentos da coleção e efetue alterações nesse campo",
+      "bonus": false
     }
   ]
 }

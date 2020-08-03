@@ -90,15 +90,17 @@ Para isso, escreva no arquivo `desafio2.js` duas queries, **nesta ordem**:
 
 ##### Desafio 3
 
-Inclua o campo `avaliacao` do tipo `NumberInt` e com o valor `0` em todos os documentos da coleção.
+Adicione o campo `avaliacao` em todos os documentos da coleção e efetue alterações nesse campo.
 
-##### Desafio 4
+Para isso, escreva no arquivo `desafio3.js` quatro queries, **nesta ordem**:
 
-Incremente o valor do campo `avaliacao` em `5` em todos os sanduíches de carne do tipo `bovino`. Dica: utilize como filtro o campo `tags`.
+1. Crie uma query que inclua o campo `avaliacao` do tipo `NumberInt` e com o valor `0` em todos os documentos da coleção.
 
-##### Desafio 5
+2. Crie uma query que incrementa o valor do campo `avaliacao` em `5` em todos os sanduíches de carne do tipo `bovino`. Dica: utilize como filtro o campo `tags`.
 
-Incremente o valor do campo `avaliacao` em `3` em todos os sanduíches de `ave`.
+3. Crie uma query que incrementa o valor do campo `avaliacao` em `3` em todos os sanduíches de `ave`.
+
+4. Crie uma query que retorna o `nome` e `avaliacao` de todos os sanduíches.
 
 ##### Desafio 6
 
