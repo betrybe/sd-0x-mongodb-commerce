@@ -79,15 +79,13 @@ Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso 
 
 ---
 
-## O que deverá ser desenvolvido
+# O que deverá ser desenvolvido
 
-Hoje você fará um projeto com o codinome _commerce_. Nesse projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
+Hoje você fará um projeto com o codinome _commerce_. Neste projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
 
-Para esse projeto, escolhemos um dataset bem menor do que o **dataFlights**, mas isso não vai impedir que você aplique tudo o que viu até aqui, combinando os conhecimentos deste bloco e do anterior.
+Para este projeto, escolhemos um dataset bem menor do que o **dataFlights**, mas isso não vai impedir que você aplique tudo o que viu até aqui, combinando os conhecimentos deste bloco e do anterior.
 
-A ideia é trabalhar com alguns dados do cardápio do **McDonald's**, como ingredientes, valores nutricionais e dados fictícios de vendas.
-
-Então vamos lá aplicar seu conhecimento nesse banco de dados "saboroso"! 😉
+A ideia é trabalhar com o banco de dados `commerce`, que contém dados do cardápio do **McDonald's**, como ingredientes, valores nutricionais e dados fictícios de vendas. As instruções de como restaurar o banco podem ser lidas a seguir.
 
 ---
 
