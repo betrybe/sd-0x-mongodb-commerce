@@ -270,7 +270,7 @@ Para isso, escreva no arquivo `desafio20.js` duas queries, **nesta ordem**:
 
 ##### Desafio 21
 
-Retorne o nome dos sanduíches em que o número de `curtidas` é maior que o número de vendas.
+Retorne o `nome` dos sanduíches em que o número de `curtidas` é maior que o número de sanduíches `vendidos`.
 
 ##### Desafio 22
 
