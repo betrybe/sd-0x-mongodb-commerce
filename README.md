@@ -202,7 +202,13 @@ Para isso, escreva no arquivo `desafio12.js` duas queries, **nesta ordem**:
 
 ##### Desafio 13
 
-Adicione o elemento `muito sódio` ao _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
+Adicione o elemento `muito sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
+
+Para isso, escreva no arquivo `desafio13.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que faça a adição do elemento `muito sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
+
+2. Crie uma query que retorna o `nome` e `tags` de todos os documentos.
 
 ##### Desafio 14
 
