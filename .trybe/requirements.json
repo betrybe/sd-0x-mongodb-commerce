@@ -79,6 +79,16 @@
       "identifier": "desafio16",
       "description": "Conte quantos produtos têm `4` ingredientes",
       "bonus": false
+    },
+    {
+      "identifier": "desafio17",
+      "description": "Conte quantos documentos contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`",
+      "bonus": false
+    },
+    {
+      "identifier": "desafio18",
+      "description": "Conte quantos documentos contêm a **expressão** `feito com` utilizando o operador `$text`",
+      "bonus": false
     }
   ]
 }

@@ -230,15 +230,23 @@ Conte quantos produtos têm `4` ingredientes.
 
 ##### Desafio 17
 
-Crie um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
+Conte quantos documentos contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
+
+Para isso, escreva no arquivo `desafio17.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que faça a criação de um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
+
+2. Crie uma query que retorna a quantidade de documentos que contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
 
 ##### Desafio 18
 
-Conte quantos documentos contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
+Conte quantos documentos contêm a **expressão** `feito com` utilizando o operador `$text`.
 
-##### Desafio 19
+Para isso, escreva no arquivo `desafio18.js` duas queries, **nesta ordem**:
 
-Conte quantos documentos contêm a expressão `feito com` utilizando o operador `$text`.
+1. Crie uma query que faça a criação de um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
+
+2. Crie uma query que retorna a quantidade de documentos que contêm a **expressão** `feito com` utilizando o operador `$text`.
 
 ##### Desafio 20
 
