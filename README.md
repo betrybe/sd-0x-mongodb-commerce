@@ -248,19 +248,19 @@ Para isso, escreva no arquivo `desafio18.js` duas queries, **nesta ordem**:
 
 2. Crie uma query que retorna a quantidade de documentos que contêm a **expressão** `feito com` utilizando o operador `$text`.
 
-##### Desafio 20
+##### Desafio 19
 
 Renomeie o campo `descricao` para `descricaoSite` em todos os documentos.
 
-##### Desafio 21
+##### Desafio 20
 
 Remova o campo `valorUnitario` do item `Big Mac`.
 
-##### Desafio 22
+##### Desafio 21
 
 Retorne o nome dos sanduíches em que o número de `curtidas` é maior que o número de vendas.
 
-##### Desafio 23
+##### Desafio 22
 
 Retorne o nome e a quantidade de vendas dos sanduíches em que o número de vendas é múltiplo de `5`.
 
