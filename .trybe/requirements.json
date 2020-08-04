@@ -19,6 +19,11 @@
       "identifier": "desafio4",
       "description": "Atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio5",
+      "description": "Adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`",
+      "bonus": false
     }
   ]
 }

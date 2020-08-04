@@ -116,6 +116,12 @@ Para isso, escreva no arquivo `desafio4.js` duas queries, **nesta ordem**:
 
 Adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
 
+Para isso, escreva no arquivo `desafio5.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que adiciona `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
+
+2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+
 ##### Desafio 6
 
 Inclua `bacon` no final da lista de `ingredientes` dos sanduíches `Big Mac` e `Quarteirão com Queijo`.
