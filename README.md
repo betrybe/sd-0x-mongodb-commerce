@@ -192,7 +192,13 @@ Para isso, escreva no arquivo `desafio11.js` duas queries, **nesta ordem**:
 
 ##### Desafio 12
 
-Ordene os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
+Ordene para todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente.
+
+Para isso, escreva no arquivo `desafio12.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que faça para todos os documentos a ordenação dos elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
+
+2. Crie uma query que retorna o `nome` e `valoresNutricionais` de todos os documentos.
 
 ##### Desafio 13
 
