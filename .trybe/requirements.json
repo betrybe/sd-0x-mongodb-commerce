@@ -34,6 +34,11 @@
       "identifier": "desafio7",
       "description": "Remova o item `cebola` de todos os sanduíches",
       "bonus": false
+    },
+    {
+      "identifier": "desafio8",
+      "description": "Remova o **primeiro** `ingrediente` do sanduíche `Quarteirão com Queijo`",
+      "bonus": false
     }
   ]
 }
