@@ -44,6 +44,11 @@
       "identifier": "desafio9",
       "description": "Remova o **último** `ingrediente` do sanduíche `Cheddar McMelt`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio10",
+      "description": "Adicione a quantidade de vendas dos sanduíches por dia da semana",
+      "bonus": false
     }
   ]
 }
