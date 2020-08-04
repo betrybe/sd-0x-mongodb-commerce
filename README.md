@@ -53,6 +53,32 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
+# Entregáveis
+
+Temos, neste projeto, uma série de desafios com diferentes níveis de complexidade. Cada desafio deve ser resolvido em seu arquivo próprio.
+
+1. Leia a pergunta e crie no diretório `challenges` um arquivo chamado `desafioN.js`, em que N é o número do desafio.
+
+2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries, como no exemplo a seguir:
+    ```js
+    db.produtos.find();
+    ```
+    ⚠️ **Restrições** ⚠️:
+
+      - **Não se deve usar aspas simples** para especificar campos e/ou valores. Quando for necessário usar aspas, **use somente aspas duplas**;
+
+      - **Não se deve usar o comando `use commerce`**, haja visto que **os testes já se conectam automaticamente à base `commerce`**.
+
+3. Faça isso até finalizar todos os desafios e depois siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
+
+4. Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter no diretório `challenges` os arquivos `desafio1.js`, `desafio2.js` e assim por diante até o `desafio22.js`, que conterão seu código `MQL` de cada desafio, respectivamente.
+
+## ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
+
+Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
+
+---
+
 ## O que deverá ser desenvolvido
 
 Hoje você fará um projeto com o codinome _commerce_. Nesse projeto, você praticará todos os conceitos de **MongoDB** já ensinados até aqui.
@@ -92,22 +118,6 @@ Então vamos lá aplicar seu conhecimento nesse banco de dados "saboroso"! 😉
     ```javascript
     db.produtos.count();
     ```
-
----
-
-## Como desenvolver e entregar este projeto
-
-Temos, a seguir, uma série de desafios com diferentes níveis de complexidade. Cada desafio deve ser resolvido em seu arquivo próprio.
-
-1. Leia a pergunta e crie um arquivo chamado `desafioN.js`, em que N é o número do desafio.
-
-2. O arquivo deve conter apenas o código MQL (_Mongo Query Language_) do desafio resolvido. **Não se esqueça de incluir o ponto e vírgula (";")** no final de suas queries e também de **colocar a instância no contexto correto**, como no exemplo a seguir:
-    ```js
-    use commerce;
-    db.produtos.find();
-    ```
-
-3. Faça isso até finalizar todos os desafios. Em seguida, siga as instruções de como entregar o projeto em [**Instruções para entregar seu projeto**](#instruções-para-entregar-seu-projeto).
 
 ---
 
