@@ -64,6 +64,11 @@
       "identifier": "desafio13",
       "description": "Adicione o elemento `muito sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio14",
+      "description": "Adicione o elemento `contém sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`",
+      "bonus": false
     }
   ]
 }
