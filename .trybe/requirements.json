@@ -94,6 +94,11 @@
       "identifier": "desafio19",
       "description": "Renomeie o campo `descricao` para `descricaoSite` em todos os documentos",
       "bonus": false
+    },
+    {
+      "identifier": "desafio20",
+      "description": "Remova o campo `curtidas` do item `Big Mac`",
+      "bonus": false
     }
   ]
 }
