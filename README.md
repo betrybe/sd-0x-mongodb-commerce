@@ -252,6 +252,12 @@ Para isso, escreva no arquivo `desafio18.js` duas queries, **nesta ordem**:
 
 Renomeie o campo `descricao` para `descricaoSite` em todos os documentos.
 
+Para isso, escreva no arquivo `desafio19.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que faça a renomeação do campo `descricao` para `descricaoSite` em todos os documentos.
+
+2. Crie uma query que retorna o `nome`, `descricao` e `descricaoSite` de todos os documentos.
+
 ##### Desafio 20
 
 Remova o campo `valorUnitario` do item `Big Mac`.

@@ -89,6 +89,11 @@
       "identifier": "desafio18",
       "description": "Conte quantos documentos contêm a **expressão** `feito com` utilizando o operador `$text`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio19",
+      "description": "Renomeie o campo `descricao` para `descricaoSite` em todos os documentos",
+      "bonus": false
     }
   ]
 }
