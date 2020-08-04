@@ -89,33 +89,33 @@ A ideia é trabalhar com o banco de dados `commerce`, que contém dados do card�
 
 ---
 
-## Instruções para restaurar o banco de dados `commerce`
+# Instruções para restaurar o banco de dados `commerce`
 
-1. Faça o download do arquivo js [aqui](produtos.js). Clique com botão direito e selecione "Salvar como" para salvar o arquivo em seu computador.
+1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como ***Connection refused***, tente reiniciar sua instância ([veja como fazer isso aqui](https://course.betrybe.com/back-end/mongodb/introduction/#conectando)).
 
-2. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como ***Connection refused***, tente reiniciar sua instância ([Veja como fazer isso aqui](https://course.betrybe.com/back-end/mongodb/introduction/#conectando)).
+2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
-3. Agora que você tem certeza de que a instância está no ar e que você está conectado a ela, troque de contexto passando do banco `test` para o banco `commerce`:
-    ```javascript
-    use commerce;
+3. Na raiz do diretório do projeto, execute o seguinte comando que fará a restauração da base de dados `commerce`:
+    ```sh
+    DBNAME=commerce ./scripts/resetdb.sh assets
     ```
 
-4. Confirme o caminho completo do diretório local onde você salvou o arquivo com a função `pwd`:
-    ```javascript
-    pwd();
-    ```
+  * A execução desse script criará um banco de dados chamado `commerce` e importará os dados para a coleção `produtos`.
 
-    Esse caminho equivale ao caminho de onde você se conectou à sua instância.
+⚠️ Como tanto esse script quanto o script de execução local dos testes (mostrado na [seção seguinte](#implementações-técnicas)), **restauram a base de dados `commerce`**, se atente a salvar seu progresso nos arquivos de desafio! ⚠️
 
-5. Agora, passando o caminho local, execute o arquivo js:
-    ```javascript
-    load("<caminho_do_arquivo>/produtos.js");
-    ```
+---
 
-6. Esse script criará 5 documentos na coleção `produtos`. Se tudo correr bem, seu retorno será um simples `true`. Depois de restaurado o banco, confira a quantidade de documentos nessa coleção:
-    ```javascript
-    db.produtos.count();
-    ```
+## Implementações técnicas
+
+Para executar localmente os testes, é preciso escrever o seguinte no seu terminal, estando na raiz do diretório do projeto:
+```sh
+./scripts/evaluate.sh
+```
+
+Esse script passará por **todos os desafios** e imprimirá um relatório indicando se passou ou não para cada desafio. Como a execução do script **envolve restauração da base de dados `commerce`** de um teste para outro, recomenda-se esperar pela sua execução completa.
+
+⚠️ Como na avaliação o banco de dados `commerce` é restaurado de um teste para outro, **se atente a fazer uso do banco restaurado na hora de fazer um desafio**. ⚠️
 
 ---
 
