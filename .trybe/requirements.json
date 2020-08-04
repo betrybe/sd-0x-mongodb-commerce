@@ -74,6 +74,11 @@
       "identifier": "desafio15",
       "description": "Conte quantos produtos contêm `Mc` no nome, sem considerar letras maiúsculas ou minúsculas",
       "bonus": false
+    },
+    {
+      "identifier": "desafio16",
+      "description": "Conte quantos produtos têm `4` ingredientes",
+      "bonus": false
     }
   ]
 }
