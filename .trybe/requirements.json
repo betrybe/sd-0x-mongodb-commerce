@@ -39,6 +39,11 @@
       "identifier": "desafio8",
       "description": "Remova o **primeiro** `ingrediente` do sanduíche `Quarteirão com Queijo`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio9",
+      "description": "Remova o **último** `ingrediente` do sanduíche `Cheddar McMelt`",
+      "bonus": false
     }
   ]
 }
