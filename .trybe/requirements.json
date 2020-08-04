@@ -69,6 +69,11 @@
       "identifier": "desafio14",
       "description": "Adicione o elemento `contém sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`",
       "bonus": false
+    },
+    {
+      "identifier": "desafio15",
+      "description": "Conte quantos produtos contêm `Mc` no nome, sem considerar letras maiúsculas ou minúsculas",
+      "bonus": false
     }
   ]
 }
