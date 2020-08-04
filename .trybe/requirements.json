@@ -7,7 +7,7 @@
     },
     {
       "identifier": "desafio2",
-      "description": "Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor \"`0.00`\", com o tipo `NumberDecimal`",
+      "description": "Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `\"0.00\"`, com o tipo `NumberDecimal`",
       "bonus": false
     },
     {
