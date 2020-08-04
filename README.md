@@ -184,6 +184,12 @@ Para isso, escreva no arquivo `desafio10.js` quatro queries, **nesta ordem**:
 
 Insira os elementos `combo` e `tasty` no _array_ `tags` de todos os sanduíches e aproveite para deixar os elementos em ordem alfabética ascendente.
 
+Para isso, escreva no arquivo `desafio11.js` duas queries, **nesta ordem**:
+
+1. Crie uma query que faça tanto a inserção dos elemntos `combo` e `tasty` no _array_ `tags` de todos os sanduíches quanto a odenação dos elementos de `tags` em ordem alfabética ascendente.
+
+2. Crie uma query que retorna o `nome` e `tags` de todos os documentos.
+
 ##### Desafio 12
 
 Ordene os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
