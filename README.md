@@ -123,11 +123,11 @@ Esse script passará por **todos os desafios** e imprimirá um relatório indica
 
 ##### Desafio 1
 
-Inclua o campo `criadoPor` em todos os documentos, colocando "`Ronald McDonald`" no valor desse campo.
+Inclua o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
 
 Para isso, escreva no arquivo `desafio1.js` duas queries, **nesta ordem**:
 
-1. Crie uma query que adiciona o campo `criadoPor` em todos os documentos, colocando "`Ronald McDonald`" no valor desse campo.
+1. Crie uma query que adiciona o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
 
 2. Crie uma query que retorna o `nome` e `criadoPor` de todos os produtos.
 
