@@ -180,55 +180,55 @@ Para isso, escreva no arquivo `desafio10.js` quatro queries, **nesta ordem**:
 
 4. Crie uma query que retorna o `nome` e `vendasPorDia` de todos os documentos.
 
-##### Desafio 13
+##### Desafio 11
 
 Insira os elementos `combo` e `tasty` no _array_ `tags` de todos os sanduíches e aproveite para deixar os elementos em ordem alfabética ascendente.
 
-##### Desafio 14
+##### Desafio 12
 
 Ordene os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
 
-##### Desafio 15
+##### Desafio 13
 
 Adicione o elemento `muito sódio` ao _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
 
-##### Desafio 16
+##### Desafio 14
 
 Adicione o elemento `contém sódio` ao _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`.
 
-##### Desafio 17
+##### Desafio 15
 
 Conte quantos produtos contêm `Mc` no nome, sem considerar letras maiúsculas ou minúsculas.
 
-##### Desafio 18
+##### Desafio 16
 
 Conte quantos produtos têm `4` ingredientes.
 
-##### Desafio 19
+##### Desafio 17
 
 Crie um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
 
-##### Desafio 20
+##### Desafio 18
 
 Conte quantos documentos contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
 
-##### Desafio 21
+##### Desafio 19
 
 Conte quantos documentos contêm a expressão `feito com` utilizando o operador `$text`.
 
-##### Desafio 22
+##### Desafio 20
 
 Renomeie o campo `descricao` para `descricaoSite` em todos os documentos.
 
-##### Desafio 23
+##### Desafio 21
 
 Remova o campo `valorUnitario` do item `Big Mac`.
 
-##### Desafio 24
+##### Desafio 22
 
 Retorne o nome dos sanduíches em que o número de `curtidas` é maior que o número de vendas.
 
-##### Desafio 25
+##### Desafio 23
 
 Retorne o nome e a quantidade de vendas dos sanduíches em que o número de vendas é múltiplo de `5`.
 
