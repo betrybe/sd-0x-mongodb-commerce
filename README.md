@@ -119,9 +119,7 @@ Esse script passará por **todos os desafios** e imprimirá um relatório indica
 
 ---
 
-## Desafios
-
-Monte queries para encontrar as informações dos desafios a seguir.
+# Requisitos do projeto
 
 ##### Desafio 1
 
