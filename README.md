@@ -2,7 +2,7 @@
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
 ---
 
@@ -127,9 +127,9 @@ Inclua o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"`
 
 Para isso, escreva no arquivo `desafio1.js` duas queries, **nesta ordem**:
 
-1. Crie uma query que adiciona o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
+1. Crie uma query que adicione o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
 
-2. Crie uma query que retorna o `nome` e `criadoPor` de todos os produtos.
+2. Crie uma query que retorne o `nome` e `criadoPor` de todos os produtos.
 
 ##### Desafio 2
 
@@ -137,9 +137,9 @@ Inclua o campo `valorUnitario` em todos os documentos em que esse campo não exi
 
 Para isso, escreva no arquivo `desafio2.js` duas queries, **nesta ordem**:
 
-1. Crie uma query que adiciona o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `"0.00"`, com o tipo `NumberDecimal`.
+1. Crie uma query que adicione o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `"0.00"`, com o tipo `NumberDecimal`.
 
-2. Crie uma query que retorna o `nome` e `valorUnitario` de todos os produtos.
+2. Crie uma query que retorne o `nome` e `valorUnitario` de todos os produtos.
 
 ##### Desafio 3
 
@@ -149,11 +149,11 @@ Para isso, escreva no arquivo `desafio3.js` quatro queries, **nesta ordem**:
 
 1. Crie uma query que inclua o campo `avaliacao` do tipo `NumberInt` e com o valor `0` em todos os documentos da coleção.
 
-2. Crie uma query que incrementa o valor do campo `avaliacao` em `5` em todos os sanduíches de carne do tipo `bovino`. Dica: utilize como filtro o campo `tags`.
+2. Crie uma query que incremente o valor do campo `avaliacao` em `5` em todos os sanduíches de carne do tipo `bovino`. Dica: utilize como filtro o campo `tags`.
 
-3. Crie uma query que incrementa o valor do campo `avaliacao` em `3` em todos os sanduíches de `ave`.
+3. Crie uma query que incremente o valor do campo `avaliacao` em `3` em todos os sanduíches de `ave`.
 
-4. Crie uma query que retorna o `nome` e `avaliacao` de todos os sanduíches.
+4. Crie uma query que retorne o `nome` e `avaliacao` de todos os sanduíches.
 
 ##### Desafio 4
 
@@ -163,7 +163,7 @@ Para isso, escreva no arquivo `desafio4.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`. Para a data corrente faça uso do tipo `Date`.
 
-2. Crie uma query que retorna o `nome` de todos os documentos em que o campo `ultimaModificacao` existe.
+2. Crie uma query que retorne o `nome` de todos os documentos em que o campo `ultimaModificacao` existe.
 
 ##### Desafio 5
 
@@ -171,9 +171,9 @@ Adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChick
 
 Para isso, escreva no arquivo `desafio5.js` duas queries, **nesta ordem**:
 
-1. Crie uma query que adiciona `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
+1. Crie uma query que adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
 
-2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `ingredientes` de todos os documentos.
 
 ##### Desafio 6
 
@@ -183,7 +183,7 @@ Para isso, escreva no arquivo `desafio6.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a inclusão de `bacon` no final da lista de `ingredientes` dos sanduíches `Big Mac` e `Quarteirão com Queijo`.
 
-2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `ingredientes` de todos os documentos.
 
 ##### Desafio 7
 
@@ -193,7 +193,7 @@ Para isso, escreva no arquivo `desafio7.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a remoção do item `cebola` em todos os sanduíches.
 
-2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `ingredientes` de todos os documentos.
 
 ##### Desafio 8
 
@@ -203,7 +203,7 @@ Para isso, escreva no arquivo `desafio8.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a remoção do **primeiro** `ingrediente` no sanduíche `Quarteirão com Queijo`.
 
-2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `ingredientes` de todos os documentos.
 
 ##### Desafio 9
 
@@ -213,7 +213,7 @@ Para isso, escreva no arquivo `desafio9.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a remoção do **último** `ingrediente` no sanduíche `Cheddar McMelt`.
 
-2. Crie uma query que retorna o `nome` e `ingredientes` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `ingredientes` de todos os documentos.
 
 ##### Desafio 10
 
@@ -225,13 +225,13 @@ Para isso, escreva no arquivo `desafio10.js` quatro queries, **nesta ordem**:
     ```json
     "vendasPorDia": [0, 0, 0, 0, 0, 0, 0]
     ```
-* O primeiro item desse _array_ representa as vendas no **domingo**, o segundo item representa as vendas na **segunda-feira**, e assim até chegar ao último que representa as vendas no **sábado**.
+* O primeiro item desse _array_ representa as vendas no **domingo**, o segundo item representa as vendas na **segunda-feira**, e assim até chegar ao último item, que representa as vendas no **sábado**.
 
-2. Crie uma query que incrementa as vendas de `Big Mac` às **quartas-feiras** em `60`.
+2. Crie uma query que incremente as vendas de `Big Mac` às **quartas-feiras** em `60`.
 
-3. Crie uma query que incrementa as vendas de todos os sanduíches de carne do tipo `bovino` e `pão` aos **sábados** em `120`.
+3. Crie uma query que incremente as vendas de todos os sanduíches de carne do tipo `bovino` e `pão` aos **sábados** em `120`.
 
-4. Crie uma query que retorna o `nome` e `vendasPorDia` de todos os documentos.
+4. Crie uma query que retorne o `nome` e `vendasPorDia` de todos os documentos.
 
 ##### Desafio 11
 
@@ -241,17 +241,17 @@ Para isso, escreva no arquivo `desafio11.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça tanto a inserção dos elementos `combo` e `tasty` no _array_ `tags` de todos os sanduíches quanto a ordenação dos elementos de `tags` em ordem alfabética ascendente.
 
-2. Crie uma query que retorna o `nome` e `tags` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `tags` de todos os documentos.
 
 ##### Desafio 12
 
-Ordene para todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente.
+Ordene em todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente.
 
 Para isso, escreva no arquivo `desafio12.js` duas queries, **nesta ordem**:
 
-1. Crie uma query que faça para todos os documentos a ordenação dos elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
+1. Crie uma query que faça em todos os documentos a ordenação dos elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente. Dica: mesmo sem adicionar nenhum novo elemento, para essa operação é necessário utilizar também o modificador `$each`.
 
-2. Crie uma query que retorna o `nome` e `valoresNutricionais` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `valoresNutricionais` de todos os documentos.
 
 ##### Desafio 13
 
@@ -261,7 +261,7 @@ Para isso, escreva no arquivo `desafio13.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a adição do elemento `muito sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
 
-2. Crie uma query que retorna o `nome` e `tags` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `tags` de todos os documentos.
 
 ##### Desafio 14
 
@@ -271,7 +271,7 @@ Para isso, escreva no arquivo `desafio14.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a adição do elemento `contém sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`.
 
-2. Crie uma query que retorna o `nome` e `tags` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `tags` de todos os documentos.
 
 ##### Desafio 15
 
@@ -289,7 +289,7 @@ Para isso, escreva no arquivo `desafio17.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a criação de um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
 
-2. Crie uma query que retorna a quantidade de documentos que contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
+2. Crie uma query que retorne a quantidade de documentos que contêm as palavras `frango` e `hamburguer` utilizando o operador `$text`.
 
 ##### Desafio 18
 
@@ -299,7 +299,7 @@ Para isso, escreva no arquivo `desafio18.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a criação de um índice do tipo `text` no campo `descricao` com o idioma padrão `portuguese`.
 
-2. Crie uma query que retorna a quantidade de documentos que contêm a **expressão** `feito com` utilizando o operador `$text`.
+2. Crie uma query que retorne a quantidade de documentos que contêm a **expressão** `feito com` utilizando o operador `$text`.
 
 ##### Desafio 19
 
@@ -309,7 +309,7 @@ Para isso, escreva no arquivo `desafio19.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a renomeação do campo `descricao` para `descricaoSite` em todos os documentos.
 
-2. Crie uma query que retorna o `nome`, `descricao` e `descricaoSite` de todos os documentos.
+2. Crie uma query que retorne o `nome`, `descricao` e `descricaoSite` de todos os documentos.
 
 ##### Desafio 20
 
@@ -319,7 +319,7 @@ Para isso, escreva no arquivo `desafio20.js` duas queries, **nesta ordem**:
 
 1. Crie uma query que faça a remoção do campo `curtidas` do item `Big Mac`.
 
-2. Crie uma query que retorna o `nome` e `curtidas` de todos os documentos.
+2. Crie uma query que retorne o `nome` e `curtidas` de todos os documentos.
 
 ##### Desafio 21
 
