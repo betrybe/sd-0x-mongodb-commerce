@@ -56,3 +56,5 @@ do
   printf "\n%s: \e[1;42mpassed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
   print_results
 done
+
+scripts/resetdb.sh "$DB_RESTORE_DIR"
