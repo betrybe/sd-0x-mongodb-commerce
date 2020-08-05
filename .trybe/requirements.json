@@ -57,7 +57,7 @@
     },
     {
       "identifier": "desafio12",
-      "description": "Ordene para todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente",
+      "description": "Ordene em todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente",
       "bonus": false
     },
     {
