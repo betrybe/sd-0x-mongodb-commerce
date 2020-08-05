@@ -1,4 +1,4 @@
-db.produtos.updateOne(
+db.produtos.update(
   { nome: "Big Mac" },
   { $currentDate: { ultimaModificacao: true } }
 );
