@@ -6,3 +6,4 @@
 
 # BSON data files
 assets/produtos.bson
+node_modules
