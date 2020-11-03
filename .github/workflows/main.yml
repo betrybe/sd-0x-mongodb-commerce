@@ -14,6 +14,13 @@ jobs:
         options: -v ${{ github.workspace }}:/github/workspace
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1.4.3
+        with:
+          node-version: '12'
+      - name: Static code analysis step
+        uses: betrybe/eslint-linter-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: MongoDB Query Evaluator Step
         uses: betrybe/mongodb-query-evaluator-action@v1
         id: evaluator
