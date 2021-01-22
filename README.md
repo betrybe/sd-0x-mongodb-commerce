@@ -162,7 +162,7 @@ Você pode também instalar o plugin do `ESLint` no `VSCode`, bastar ir em exten
 
   - Projeto individual.
 
-  - Serão dois dias de projeto.
+  - Será um dia de projeto.
   
   - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
