@@ -149,7 +149,7 @@ Você pode também instalar o plugin do `ESLint` no `VSCode`, bastar ir em exten
 
 3. Na raiz do diretório do projeto, execute o seguinte comando que fará a restauração da base de dados `commerce`:
    ```sh
-   DBNAME=commerce ./scripts/resetdb.sh assets
+   DBNAME=commerce ./scripts/resetdb.sh assets/produtos
    ```
 
 - A execução desse script criará um banco de dados chamado `commerce` e importará os dados para a coleção `produtos`.
