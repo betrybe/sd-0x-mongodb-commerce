@@ -62,7 +62,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ---
 
 # Habilidades
-Neste projeto, verificamos se voce é capaz de:
+Neste projeto, verificamos se você é capaz de:
 
   * Utilizar o método `updateOne()` e `updateMany()`
 
