@@ -180,7 +180,20 @@ Qualquer dúvida, procure a monitoria. Lembre-se que você pode consultar nosso 
   - Exemplo:
     - `git commit -m 'iniciando o projeto MongoDB Commerce'` (fazendo o primeiro commit)
     - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+    - 
+5. Adicione a sua branch com o novo `commit` ao repositório remoto
 
+- Usando o exemplo anterior: `git push -u origin joaozinho-sd-0x-mongodb-commerce`
+
+6. Crie um novo `Pull Request` _(PR)_
+
+- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-mongodb-commerce/pulls)
+- Clique no botão verde _"New pull request"_
+- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+- Clique no botão verde _"Create pull request"_
+- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
+- **Não se preocupe em preencher mais nada por enquanto!**
+- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-mongodb-commerce/pulls) e confira que o seu _Pull Request_ está criado
 ---
 
 ### Durante o desenvolvimento
@@ -218,7 +231,7 @@ Você pode também instalar o plugin do `ESLint` no `VSCode`, bastar ir em exten
 
 ### Instruções para restaurar o banco de dados `commerce`
 
-1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como **_Connection refused_**, tente reiniciar sua instância ([veja como fazer isso aqui](https://course.betrybe.com/back-end/mongodb/introduction/#conectando)).
+1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como **_Connection refused_**, tente reiniciar sua instância ([veja como fazer isso aqui](https://app.betrybe.com/course/back-end/introducao-ao-mongodb/mongodb-introducao/d396e5a2-d5c9-4f3a-b723-1a1d3ea06b3d/conteudos/b9646f17-77fc-401e-bab5-421fdc37428e/conectando/f63aa7aa-ac8f-4253-bf76-7fc71e4eac5a?use_case=side_bar)).
 
 2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
