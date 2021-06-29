@@ -29,36 +29,42 @@ print_results() {
   printf "\n======================= RESULTS =======================\n"
 }
 
-# Print tests evaluation
-for entry in "$TRYBE_DIR/expected-results"/*
-do
-  # Get challenge name
-  chName=$(echo "$(basename $entry)" | sed -e "s/.js//g")
-  if [[ -z "$UNIT_FILE" ]] || [ $chName == $UNIT_FILE ]; then
-      scripts/resetdb.sh "$DB_RESTORE_DIR"
-      # Build path to results dir
-      resultPath="$RESULTS_DIR/$chName"
-      touch "$resultPath"
-      # Check if challenge MQL file exists
-      mqlFile="$CHALLENGES_DIR/$chName".js
-      if [ ! -f $mqlFile ]; then
-        printf "\n%s: \e[1;31mfailed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
-        print_results
-        continue
-      fi
-      # Exec mongo query
-      mql=$(cat "$mqlFile")
-      scripts/exec.sh "$mql" &> "$resultPath"
-      # Check result with the expected
-      diff=$(diff "$resultPath" "$TRYBE_DIR/expected-results/$chName")
-      if [[ ! -z "$diff" ]]; then
-        printf "\n%s: \e[1;31mfailed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
-        print_results
-        continue
-      fi
+run_evaluate() {
+  scripts/resetdb.sh "$DB_RESTORE_DIR"
+  # Build path to results dir
+  resultPath="$RESULTS_DIR/$chName"
+  touch "$resultPath"
+  # Check if challenge MQL file exists
+  mqlFile="$CHALLENGES_DIR/$chName".js
+  if [ ! -f $mqlFile ]; then
+    printf "\n%s: \e[1;31mfailed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
+    print_results
+  else
+    # Exec mongo query
+    mql=$(cat "$mqlFile")
+    scripts/exec.sh "$mql" &> "$resultPath"
+    # Check result with the expected
+    diff=$(diff "$resultPath" "$TRYBE_DIR/expected-results/$chName")
+    if [[ ! -z "$diff" ]]; then
+      printf "\n%s: \e[1;31mfailed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
+      print_results
+    else  
       printf "\n%s: \e[1;42mpassed \e[0m" "$chName" >> "$RESULTS_DIR/evaluation.out"
       print_results
-   fi
-done
+    fi
+  fi  
+}
+
+# Print tests evaluation
+if [[ -z "$UNIT_FILE" ]]; then
+  for entry in "$TRYBE_DIR/expected-results"/*
+  do
+    chName=$(echo "$(basename $entry)" | sed -e "s/.js//g")
+    run_evaluate
+  done
+else
+  chName=$UNIT_FILE
+  run_evaluate
+fi
 
 scripts/resetdb.sh "$DB_RESTORE_DIR"
